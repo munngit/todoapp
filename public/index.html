@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header>
+      <h1>Todo App</h1>
+      <p>Keep track of your tasks with a simple CRUD app.</p>
+    </header>
+
+    <section class="todo-form">
+      <input id="todo-input" type="text" placeholder="Enter a new todo" />
+      <button id="add-button">Add Todo</button>
+    </section>
+
+    <section>
+      <h2>Your Todos</h2>
+      <div id="status-message" class="status-message"></div>
+      <ul id="todo-list" class="todo-list"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
